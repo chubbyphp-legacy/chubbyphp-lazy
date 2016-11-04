@@ -24,17 +24,21 @@ final class LazyCommandTest extends \PHPUnit_Framework_TestCase
         $input = $this->getInput();
         $output = $this->getOutput();
 
+        $argument = new InputArgument('argument');
+
         $command = new LazyCommand(
             $container,
             'service',
             'name',
-            [
-                new InputArgument('argument'),
-            ],
+            [$argument],
             'description',
             'help'
         );
 
+        self::assertSame('name', $command->getName());
+        self::assertSame($argument, $command->getDefinition()->getArgument('argument'));
+        self::assertSame('description', $command->getDescription());
+        self::assertSame('help', $command->getHelp());
         self::assertSame(5, $command->run($input, $output));
     }
 
