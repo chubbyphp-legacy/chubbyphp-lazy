@@ -13,7 +13,6 @@ Model and repository made simple.
 
  * php: ~7.0
  * container-interop/container-interop: ~1.1
- * psr/http-message: ~1.0
 
 ## Installation
 
@@ -22,6 +21,10 @@ Through [Composer](http://getcomposer.org) as [chubbyphp/chubbyphp-lazy][1].
 ## Usage
 
 ### LazyCommand
+
+#### Additional Requirements
+
+ * psr/http-message: ~1.0
 
 ```{.php}
 <?php
@@ -50,6 +53,10 @@ $command->run();
 ```
 
 ### LazyMiddleware
+
+#### Additional Requirements
+
+ * symfony/console: ~3.1
 
 ```{.php}
 <?php
