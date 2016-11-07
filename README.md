@@ -7,7 +7,7 @@
 
 ## Description
 
-Model and repository made simple.
+Allow to lazyload commands, middlewares.
 
 ## Requirements
 
