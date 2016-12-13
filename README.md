@@ -1,5 +1,8 @@
 # chubbyphp-lazy
 
+[![Total Downloads](https://poser.pugx.org/chubbyphp/chubbyphp-lazy/downloads.png)](https://packagist.org/packages/chubbyphp/chubbyphp-lazy)
+[![Latest Stable Version](https://poser.pugx.org/chubbyphp/chubbyphp-lazy/v/stable.png)](https://packagist.org/packages/chubbyphp/chubbyphp-lazy)
+
 ## chubbyphp-lazy-command
 
 [![Build Status](https://api.travis-ci.org/chubbyphp/chubbyphp-lazy-command.png?branch=master)](https://travis-ci.org/chubbyphp/chubbyphp-lazy-command)
