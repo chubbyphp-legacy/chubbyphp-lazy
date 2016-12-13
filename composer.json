@@ -1,6 +1,6 @@
 {
     "name": "chubbyphp/chubbyphp-lazy",
-    "description": "Chubbyphp Lazy Middleware",
+    "description": "Chubbyphp Lazy",
     "keywords": ["chubbyphp", "lazy", "middleware", "psr7", "console", "slim"],
     "license": "MIT",
     "authors": [
@@ -11,19 +11,12 @@
     ],
     "require": {
         "php": "~7.0",
-        "container-interop/container-interop": "~1.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~5.5",
-        "psr/http-message": "~1.0",
-        "symfony/console": "~2.3|~3.0"
-    },
-    "autoload": {
-        "psr-4": { "Chubbyphp\\Lazy\\": "src/" }
+        "chubbyphp/chubbyphp-lazy-command": "~1.0",
+        "chubbyphp/chubbyphp-lazy-middleware": "~1.0"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-master": "1.1-dev"
         }
     }
 }
